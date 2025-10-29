@@ -65,10 +65,4 @@ Example 5: List → Tuple → Set
 
 
 ------------------------------------------------
-Control statements
 
-Type	            Statement	              Purpose
-Conditional	      if, elif, else	        Decision making
-Looping	          for, while	            Repetition
-Jump	            break, continue, pass	  Modify loop flow
-Pattern Matching	match-case	            Structured decision making
