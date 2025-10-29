@@ -1,0 +1,74 @@
+In Python, data type conversion (also called type casting) means changing the data type of a value from one type to another — for example, converting an integer to a string or a float to an integer.
+
+Implicit conversion (automatic)
+
+      x = 10      # integer
+      y = 2.5     # float
+      
+      result = x + y
+      print(result)
+      print(type(result))
+Output:   
+        12.5
+        <class 'float'>
+
+
+2. Explicit Type Conversion (Manual)
+You manually convert one data type to another using built-in functions.
+Function	Converts to
+int()	    Integer
+float()	  Floating point number
+str()	    String
+list()	   List
+tuple()	  Tuple
+set()	    Set
+dict()	  Dictionary (from key-value pairs)
+complex()	Complex number
+------------------------------------------------------
+Example 1: Convert String → Integer
+    x = "10"
+    y = int(x)
+    print(y)
+    print(type(y)) 
+    //Output:10
+    <class 'int'>
+
+Example 2: Integer → Float
+      a = 5
+      b = float(a)
+      print(b)
+      print(type(b))
+      //Output: 5.0
+      <class 'float'>	
+Example 3: Float → Integer
+          a = 7.9
+          b = int(a)
+          print(b)
+          //Output: 7	
+Example 4: Integer → String
+               num = 100
+              text = str(num)
+              print(text)
+              print(type(text))
+              //Output: 100
+              <class 'str'>	
+Example 5: List → Tuple → Set
+                    list1 = [1, 2, 3, 3]
+                    tup = tuple(list1)
+                    st = set(list1)
+                    
+                    print(tup)
+                    print(st)
+                    //Output: (1, 2, 3, 3)
+                    {1, 2, 3}
+
+
+
+------------------------------------------------
+Control statements
+
+Type	            Statement	              Purpose
+Conditional	      if, elif, else	        Decision making
+Looping	          for, while	            Repetition
+Jump	            break, continue, pass	  Modify loop flow
+Pattern Matching	match-case	            Structured decision making
