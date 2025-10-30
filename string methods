@@ -1,0 +1,7 @@
+Example Program Using Many Methods
+text = "  welcome to python programming  "
+print(text.strip().title())         # Remove spaces & capitalize each word
+print(text.count("o"))              # Count occurrences of 'o'
+print(text.replace("python", "AI")) # Replace word
+print(text.split())                 # Split into list
+print(" | ".join(["A", "B", "C"]))  # Join elements with separator
